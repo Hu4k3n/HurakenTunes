@@ -5,8 +5,8 @@ import sys
 from sys import *
 
 def main() :
-	#p = stdin.readline()
-	#p = p.strip('\n')
+	p = stdin.readline()
+	p = p.strip('\n')
 	p='https://www.youtube.com/watch?v=aJOTlE1K90k'
 	ydl_opts = {
             'format': 'bestaudio/best', 
