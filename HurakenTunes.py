@@ -4,7 +4,7 @@ import logging
 import youtube_dl
 import os
 
-updater=Updater(token='931539659:AAHjbKN9qu4WG2B317kKiWebySvvwfeOHnU',use_context=True)
+updater=Updater(token='<api token>',use_context=True)
 dispatcher=updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
